@@ -1,15 +1,19 @@
-Programa que calcula raíz cuadrada usando el método de Newton-Raphson.
+# Calculadora de Raíz Cuadrada — Newton-Raphson
 
-Herramientas usadas:
-Flex -> analizador léxico
-Bison -> parser
+Programa que calcula la raíz cuadrada usando el método de Newton-Raphson.
 
-Compilar:
+## Herramientas
+- **Flex** — analizador léxico
+- **Bison** — parser
 
+## Compilar
+```bash
 bison -d calc.y
 flex calc.l
 gcc calc.tab.c lex.yy.c -lm
+```
 
-Ejecutar:
-
+## Ejecutar
+```bash
 ./a.out < entrada.txt
+```
