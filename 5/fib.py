@@ -1,3 +1,7 @@
+"""
+fib.py
+
+Frmato esperado:
 FIBO(8)
 
 """
